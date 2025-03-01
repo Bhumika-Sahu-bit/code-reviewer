@@ -8,7 +8,9 @@ import "highlight.js/styles/github-dark.css"
 import axios from 'axios'
 import './App.css'
 
+
 function App() {
+  
   const [code, setCode] = useState(`// Write your code here
 function example() {
   // This is a sample function
@@ -29,7 +31,8 @@ function example() {
     setError(null)
     
     try {
-      const response = await axios.post('http://localhost:3000/ai/get-review', { code })
+      const API_URL = import.meta.env.VITE_API_URL;
+      const response = await axios.post(`${API_URL}/ai/get-review`, { code })
       setReview(response.data)
     } catch (error) {
       console.error('Error:', error)
