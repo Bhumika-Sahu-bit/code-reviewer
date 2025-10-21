@@ -2,6 +2,9 @@
 
 A modern web application that provides instant, AI-powered code reviews and suggestions for your code. Built with React, Node.js, and Google's Gemini AI.
 
+<img width="1906" height="883" alt="Screenshot 2025-03-02 173313" src="https://github.com/user-attachments/assets/0afcb9b9-80f5-445e-8ffe-25f229784443" />
+
+
 
 ## Features ✨
 
