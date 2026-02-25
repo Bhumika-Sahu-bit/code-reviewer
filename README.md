@@ -1,43 +1,92 @@
-# Code Review AI 🚀
+🤖 AI Code Reviewer
 
-A modern web application that provides instant, AI-powered code reviews and suggestions for your code. Built with React, Node.js, and Google's Gemini AI.
+A simple and interactive AI-powered Code Review Tool that helps developers analyze and improve their code instantly. Users can paste code or upload a snippet and get suggestions, feedback, and quality insights in real-time — great for learning, improving best practices, and catching errors before committing changes.
 
-<img width="1906" height="883" alt="Screenshot 2025-03-02 173313" src="https://github.com/user-attachments/assets/0afcb9b9-80f5-445e-8ffe-25f229784443" />
+✨ Features
+
+🧠 Instant code analysis and feedback
+
+🔎 Highlights issues, suggestions & improvements
+
+💡 Helps improve readability and best practices
+
+📱 Works in browser — no setup required
+
+⚡ Lightweight and intuitive UI
+
+📸 Screenshot
+
+![Uploading Screenshot 2026-02-25 220953.png…]() 
 
 
+🚀 Live Demo
 
-## Features ✨
+Try it live here:
+👉 https://code-reviewer-alpha-sandy.vercel.app/
 
-- **Instant Code Analysis**: Get immediate feedback on your code
-- **Comprehensive Review**: Covers bugs, performance, security, and best practices
-- **Smart Suggestions**: AI-powered recommendations for code improvements
-- **Modern UI**: Clean, responsive interface with dark theme
-- **Real-time Processing**: Quick response times with efficient API handling
-- **Multiple Language Support**: Handles various programming languages
-- **Detailed Reports**: Structured feedback with actionable items
+🛠️ Tech Stack
 
-## Tech Stack 🛠️
+HTML5 / CSS3 – Frontend UI
 
-### Frontend
-- React
-- Prism.js (code highlighting)
-- React Markdown
-- Axios
-- CSS3 with modern features
+JavaScript – User interactions
 
-### Backend
-- Node.js
-- Express.js
-- Google Gemini AI API
-- RESTful API architecture
+AI Backend / API – Code analysis logic (e.g., OpenAI or other)
 
-## Getting Started 🌟
+(If your code uses React, Vite, Node, or other tools, list those here too.)
 
-### Prerequisites
-- Node.js (v14 or higher)
-- npm or yarn
-- Google Gemini API key
+📦 Run Locally
 
-### Installation
+To run this project locally:
 
-1. **Clone the repository**
+Clone the repository
+
+git clone https://github.com/<your-username>/<repo-name>.git
+
+
+Install dependencies
+
+npm install
+
+
+Start dev server
+
+npm run dev
+
+
+(or use your framework’s start command depending on setup)
+
+💡 How It Works
+
+User enters or pastes code into the UI
+
+App sends the code to an AI backend for analysis
+
+Reviewer suggests improvements, flags errors, and gives feedback
+
+Developers can refine their code using the insights
+
+🧠 Future Enhancements
+
+Here are some ideas you could add later:
+
+📦 Support for multi-language (Python, Java, C++, etc.)
+
+🗂️ Upload code files directly
+
+💬 Export feedback as text or PDF
+
+🔌 GitHub/GitLab integration for automated reviews
+
+🎨 Dark/Light theme toggle
+
+📌 Why This Project Matters
+
+This project demonstrates your skills in:
+
+Building interactive web apps with frontend technologies
+
+Using AI / backend integrations for real-world developer tools
+
+UX design for developer productivity interfaces
+
+Problem solving and debugging workflows
