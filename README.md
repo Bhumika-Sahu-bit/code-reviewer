@@ -16,7 +16,7 @@ A simple and interactive AI-powered Code Review Tool that helps developers analy
 
 📸 Screenshot
 
-![Uploading Screenshot 2026-02-25 220953.png…]() 
+<img width="1891" height="879" alt="Screenshot 2026-02-25 220953" src="https://github.com/user-attachments/assets/c21e97c6-ceeb-4eda-a79e-3dde7f967f89" />
 
 
 🚀 Live Demo
