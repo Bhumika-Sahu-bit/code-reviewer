@@ -117,7 +117,7 @@ Highlight what's well-implemented in the code
 async function generateContent(prompt) {
   try {
     const chatCompletion = await groq.chat.completions.create({
-      model: "llama3-8b-8192", // Free and stable model
+      model: "groq-1.1-mini", // Free and stable model
       messages: [
         { role: "system", content: systemInstruction },
         { role: "user", content: prompt },
