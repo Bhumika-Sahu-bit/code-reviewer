@@ -2,7 +2,7 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 
 const genAI = new GoogleGenerativeAI(process.env.GOOGLE_GEMINI_KEY);
 const model = genAI.getGenerativeModel({
-     model: "gemini-1.5-flash" ,
+     model: "gemini-1.5-flash-latest" ,
     systemInstruction:  `You are an expert code reviewer and senior software engineer with extensive experience. Your task is to analyze code and provide comprehensive, actionable feedback. Follow these guidelines:
 
     1. Code Analysis:
