@@ -89,11 +89,23 @@ Follow these guidelines:
 
 3. Response Format:
 
-[SUMMARY]
-[CRITICAL ISSUES]
-[IMPROVEMENTS]
-[BEST PRACTICES]
-[POSITIVE ASPECTS]
+ [SUMMARY]
+       Brief overview of the code quality and main findings
+    
+       [CRITICAL ISSUES]
+       List any critical bugs, security issues, or performance problems
+    
+       [IMPROVEMENTS]
+       - Specific suggestions for code improvement
+       - Code examples where applicable
+       - Performance optimization tips
+    
+       [BEST PRACTICES]
+       Recommendations for following industry standards
+    
+       [POSITIVE ASPECTS]
+       Highlight what's well-implemented in the code
+    
 
 4. Additional Guidelines:
 - Be constructive and professional in feedback
@@ -101,6 +113,8 @@ Follow these guidelines:
 - Include code examples for complex improvements
 - Suggest modern alternatives where applicable
 - Maintain a balanced review
+
+Remember to maintain a balanced review, highlighting both areas for improvement and positive aspects of the code.
 `;
 
 async function generateContent(prompt) {
